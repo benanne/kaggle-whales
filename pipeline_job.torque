@@ -1,0 +1,4 @@
+#PBS -d /mnt/storage/usr/sedielem
+
+export MPLCONFIGDIR=/tmp
+epython /mnt/storage/usr/sedielem/whales/pipeline_job.py
