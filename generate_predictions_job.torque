@@ -1,0 +1,4 @@
+#PBS -d /mnt/storage/usr/sedielem
+
+export MPLCONFIGDIR=/tmp
+epython /mnt/storage/usr/sedielem/whales/generate_predictions_job.py $PBS_ARRAYID
